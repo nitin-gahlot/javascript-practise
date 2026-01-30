@@ -29,16 +29,16 @@
 // console.log(Object.entries(user));
 
 
-const car ={
-    make:"mahindra",
-    model:"thar"
-};
-// Object.freeze(car); //we cant add a new key and value pair and we cant change or update the existing value
+// const car ={
+//     make:"mahindra",
+//     model:"thar"
+// };
+// // Object.freeze(car); //we cant add a new key and value pair and we cant change or update the existing value
 
-Object.seal (car) // we cant add a new key and value pair but we can chamge and update the existing value
- car.model="XUV700"
- car.model="Zblack";
- console.log(car);
+// // Object.seal (car) // we cant add a new key and value pair but we can chamge and update the existing value
+// //  car.model="XUV700"
+// //  car.model="Zblack";
+//  console.log(car);
 
 
 
